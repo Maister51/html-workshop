@@ -12,32 +12,35 @@
 
 <div class="container" style="padding: 1em">
     <div id="textBox">
-        <h1>Nimetus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur eget lectus mi. Donec lorem magna,
-            elementum ac dui in, posuere pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur eget lectus mi. Donec lorem magna, elementum ac dui in, posuere pharetra odio.</p>
+        <h1>Inge Kurn</h1>
+        <p>Inge Kurn on Tartu Tamme Gümnaasiumis vene keele õpetaja. </p>
     </div>
-    <img id="photo" src="images/img.png">
+    <img id="photo" src="images/Inge_Kurn.png">
 </div>
 
 <!-- Lõbusad faktid -->
 
 <div class="container">
     <div class="card">
-        <!-- Tee see osa ise! -->
+        <h1>Tsitaat</h1>
+        <p>Inge Kurni hüüdlauseks on: "думать надо!"</p>
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+        <h1>Anekdoot</h1>
+        <p>Inge Kurni anekdoot: Rebane oli näljane ja nägi lähedal kana. Rebane oli kaval ja tegi "bak bak". Kana jooksis hääle poole, kuna arvas,
+        et seal on kana. Rebase lõksu langedes sõi rebane kana ära ja sai kõhu täis. Aga kui rebane oleks teinud "uuuuuu", siis kana oleks hakanud kartma ja oleks ära jooksnud hundi pärast. Küll on hea keeli osata.</p>
     </div>
     <div class="card">
-        <!-- Tee see osa ise! -->
+        <h1>Luuletus</h1>
+        <p>Iga tundi alustame luuletusega: "Утро доброе у нас, добрый день и добрый час,
+        Добрый вечер, ночь добра, было доброе вчера".</p>
     </div>
 </div>
 
 <!-- Video -->
 
 <div class="container" style="flex-flow: column">
-    <iframe id="video" src="https://www.youtube.com/embed/WLT7TDGzXGU?si=z5_UTSHfVFkCDm6X" title="YouTube video player"
+    <iframe id="video" src="https://www.youtube.com/embed/vc_zNRvhJPk?si=wTGIp66_yZljnb3E" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     <!-- max-width paneb ette piiri, et kui pikk võib tekst olla -->
@@ -51,10 +54,25 @@
 <div>
     <h1>Lisainfo</h1>
     <div class="container">
-        <!-- Tee see osa ise! -->
+        <p>думать надо!</p>
     </div>
 </div>
 
+<button id="suprise">Vajuta mind!</button>
 </body>
+<script>
+let button = document.getElementById("suprise")
+button.addEventListener("click", function (){
+    let body = document.body;
+    if (body.style.background === "black") {
+        body.style.background = "pink";
+    }
+    else {
+        body.style.background = "black";
+        document.p.style.color = "white";
+    }
+    }
+)
+</script>
     
 </html>
