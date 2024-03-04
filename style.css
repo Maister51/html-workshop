@@ -5,6 +5,9 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background-color: lavender;
+    font-family: "Dancing Script", "EB Garamond";
+    font-size: 16px;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
@@ -34,7 +37,7 @@ body {
     align-items: center;
     background-color: #D9D9D9;
     padding: 5em 1.5em 1.5em;
-
+    border-radius: 50px;
 }
 .icon {
     max-width: 10em;
